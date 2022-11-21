@@ -1,0 +1,13 @@
+site_name: My Docs
+
+markdown_extensions:
+  - pymdownx.snippets:
+
+nav:
+    - 'index.md'
+
+theme:
+  name: material
+
+plugins:
+    - pdf-export

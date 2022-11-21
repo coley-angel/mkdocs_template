@@ -1,0 +1,9 @@
+services:
+  mkdocs:
+    image: mymkdocs
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./docs:/usr/src/app/docs
+    command: [ "mkdocs", "serve", "-a", "0.0.0.0:8000"]
