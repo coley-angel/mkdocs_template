@@ -8,6 +8,9 @@ nav:
 
 theme:
   name: material
+  features:
+   - toc.integrate
 
 plugins:
-    - pdf-export
+    - techdocs-core
+    # - pdf-export
